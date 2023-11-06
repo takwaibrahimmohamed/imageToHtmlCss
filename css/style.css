@@ -1,0 +1,260 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  overflow-x: hidden;
+}
+ul{
+  list-style: none;
+ 
+}
+header{
+
+  width: 100%;
+  background-color: transparent;
+  z-index: 11;
+ position: absolute;
+
+}
+.container{
+  padding-left:10% ;
+  padding-right:10% ;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 67px;
+}
+.logo{
+  width: 100px;
+}
+.logo img{
+width: 100%;
+}
+header .links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .links ul{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+header .links ul li{
+  text-transform: capitalize;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .1s ease;
+}
+.links ul .active{
+  color: #ef6820;
+  border-bottom: 2px solid #ef6820;
+
+}
+.links ul li:hover{
+  color: #ef6820;
+  border-bottom: 2px solid #ef6820;
+}
+.btn{
+  width: fit-content;
+  padding: 10px 15px;
+  border: 1px solid #ef6820;
+  border-radius: 5px;
+  color: #ef6820;
+  transition: .5s;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #ef6820;
+  color: white;
+}
+.btn.icon{
+  background-color: #ef6820;
+  color: white;
+ 
+}
+.landing{
+  background-image: url("/images/ba5710bcca7ababac65278cb6512daaf.jpg");
+  background-size: cover;
+ width: 100%;
+ min-height: 100vh;
+ position: relative;
+}
+.landing .rotate-text{
+  position: absolute;
+  rotate: 270deg;
+  top: 50%;
+  left: -180px;
+  font-size: 18px;
+  letter-spacing: 1.5;
+  font-weight: normal;
+  font-family: sans-serif;
+  /* position: relative; */
+}
+
+.landing .rotate-text .textspan{
+margin-left: 20px;
+}
+.landing .star{
+  position: absolute;
+  width: 30px !important;
+  bottom: 100px;
+  height: 30px;
+  left: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.landing .content{
+  position: absolute;
+
+  display: flex;
+ 
+  align-items: center;
+  top: 30%;
+  align-items: flex-start;
+ width: 1000px;
+  gap: 50px;
+}
+
+
+.landing .content .box {
+width: 50%;
+text-wrap: wrap;
+font-family: sans-serif;
+position: relative;
+z-index: 13;
+}
+.landing .content h1{
+  font-size: 60px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+
+}
+.landing .content h1 span{
+  font-size: 77px;
+  color: #ef6820;
+} 
+.landing .content .sec
+.Darklanding .content .secbox
+{
+  line-height: 1.5;
+}
+.landing .content .sec h5,.Darklanding .content .secbox h5{
+  text-transform: capitalize;
+  color: #ef6820;
+  font-size: 20px;
+  position: relative;
+  margin-left: 50px;
+
+}
+.landing .content .sec h5::before,
+.Darklanding .content .secbox h5::before
+{
+  content: "";
+  position: absolute;
+  background-color: #ef6820;
+  width: 50px;
+  height: 2px;
+  top: 50%;
+  left: -52px;
+}
+.landing .content .sec p{
+  color: gray;
+}
+.landing .content .sec .cercle{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ef6820;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  position: relative;
+  z-index: 113;
+}
+
+.landing .content .sec .cercle span{
+ 
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ef6820;
+ 
+  border-radius: 50%;
+  top: 10px;
+  right: 4px;
+  z-index: 2;
+;
+
+}
+.landing .centerImg{
+  position: absolute;
+  z-index: 111;
+  top: 80%;
+  left: 28%;
+}
+
+
+.Darklanding{
+  background-image: url("/images/dark.jpg");
+  background-size: cover;
+ width: 100%;
+ min-height: 120vh;
+ position: relative;
+
+}
+.Darklanding .content{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  top: 50%;
+  width: 700px;
+  gap: 50px;
+
+}
+.Darklanding .content .box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Darklanding .content .box h1{
+  font-size: 60px;
+}
+.Darklanding .content .secbox{
+display: flex;
+flex-direction: column;
+gap: 10px;
+text-transform: capitalize;
+line-height: 1.5;
+margin-right: 100px;
+}
+.Darklanding .content .secbox .btn{
+  color: white;
+  background-color: #ef6820;
+  margin-top: 10px;
+}
+.Darklanding .teckImg{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: 100px;
+}
+.Darklanding .premImg{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: -60px;
+  right: 450px;
+  border-radius: 50%;
+}
