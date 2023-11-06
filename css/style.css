@@ -78,7 +78,7 @@ header .links ul li{
  
 }
 .landing{
-  background-image: url("/images/ba5710bcca7ababac65278cb6512daaf.jpg");
+  background-image: url("./images/ba5710bcca7ababac65278cb6512daaf.jpg");
   background-size: cover;
  width: 100%;
  min-height: 100vh;
@@ -204,7 +204,7 @@ z-index: 13;
 
 
 .Darklanding{
-  background-image: url("/images/dark.jpg");
+  background-image: url("./images/dark.jpg");
   background-size: cover;
  width: 100%;
  min-height: 120vh;
